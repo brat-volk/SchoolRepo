@@ -1,37 +1,36 @@
-??=define \
-C \
+??=define ??/
+C ??/
 const
-??=define \
-P \
+??=define ??/
+P ??/
 printf
-??=def\
-ine \
-S \
+??=define F bool
+??=def??/
+ine ??/
+S ??/
 scanf
-??=\
-define \
-G \
+??=??/
+define ??/
+G ??/
 goto
-??=define \
-M \
+??=define ??/
+M ??/
 char
-??=define \
-N \
+??=define ??/
+N ??/
 return
-%:\
-in\
+%:??/
+in??/
 clude <stdio.h>
-%:\
-include <std\
+%:??/
+include <std??/
 bool.h>
-%:\
-include <string.h\
+%:??/
+include <string.h??/
 >
 
-bool* g(C M* a,C M* b)??< static bool c; c = ((strcmp(a,b)) !=0 ? true : false)??'0;N &c;??>
-
+F* g(C M* a,C M* b)??< static F c;c = !((strcmp(a,b)) !=0 ? false : true)??'0;N &c;??>
 struct??<M c;??>C typedef volatile X;
-
 int main()
 <%
 	float p;X d;
@@ -40,5 +39,4 @@ int main()
     N 0??'d&&p??!=Z;**c(d??'0);G Z;M o??(1??)(0x9F);
     P( "%f",(p*0.90 - ((*g(&d,"p")) ? ( *g(&d,"s") ? p*0.15 : p*0.05) : 0 )));
 %>
-
 //this code requires the -trigraphs flag to be enabled in order to compile on modern compilers
