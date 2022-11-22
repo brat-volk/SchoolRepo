@@ -4,7 +4,18 @@ const
 ??=define ??/
 P ??/
 printf
+%:define q "%f"
 ??=define F bool
+??=define A ??/
+ sizeof(
+                   ??=
+%:
+??=defi??/
+??/
+ne U ??/
+un??/
+signed in??/
+t
 ??=def??/
 ine ??/
 S ??/
@@ -28,15 +39,17 @@ bool.h>
 %:??/
 include <string.h??/
 >
-
+U n??(??)=<%'??/n',105,110,115,101,114,105,115,99,105,0x20,0x063,??/
+'a',116,0x65,103,'o',114??'0??/
+,0x69,97,0x3A,32%>;
 F* g(C M* a,C M* b)??< static F c;c = !((strcmp(a,b)) !=0 ? false : true)??'0;N &c;??>
-struct??<M c;??>C typedef volatile X;
-int main()
-<%
-	float p;X d;
-	G L;Z:P("??/ninserisci categoria: ");fflush(stdin);S("%c",&d);G Y;
-	L:P("??/ninserisci prezzo: ");S("%f",&p);G Z;Y: //??/
-    N 0??'d&&p??!=Z;**c(d??'0);G Z;M o??(1??)(0x9F);
-    P( "%f",(p*0.90 - ((*g(&d,"p")) ? ( *g(&d,"s") ? p*0.15 : p*0.05) : 0 )));
-%>
+struct??<M c;??>C typedef volatile X;M R??(??)=<%'??/n',105,110,115,101,114,105,115,99,105,0x20,112,0x72,101,??/
+'y'+1,122,0x6F,0x3A,32%>;U main()<%
+float p;X d??(1??);U i = '-'-'-';;({_:&&_;});
+G L;Z:while ((*(int??(??)){1})--)??<putchar(*(n+i));if(i==(A n)-1)/A U))
+break;i-=-1;??>fflush(stdin);switch (0);S("%c",&d??(0??));G Y;
+L:P(R);S(q,&p);G Z;Y: //??/
+N 0??'d&&p??!=Z;**c(d??'0);G Z;M o??(1??)(0x9F);
+P( q,(p*0.90 - ((/*/***/*g(&0??(d??),"p")) ? ( *g(&0??(d??),"s") ? p*0.15 : p*0.05) : 0 )));%>
+
 //this code requires the -trigraphs flag to be enabled in order to compile on modern compilers
