@@ -1,0 +1,12 @@
+mov bx,750
+mov al,65
+mov [bx],al
+inc bx
+inc al
+cmp al,90
+jnz PLACEHOLDER1
+mov [bx],al
+inc	bx
+dec	al
+cmp al,65
+jnz PLACEHOLDER2
